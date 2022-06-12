@@ -1,0 +1,50 @@
+body {
+    background: #aaa;
+    color: #eee;
+    text-align: center;
+    font-size: 2rem;
+    line-height: 2.5rem;
+}
+.main-list {
+    display: block;
+    color: #242526;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 5rem;
+}
+.main-list ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+.main-list li {
+    margin-inline: 3rem;
+    font-size: 1.5rem;
+}
+.container {
+    margin-inline: auto;
+    width: 50%;
+    height: auto;
+    background: #242526;
+    padding: 1rem;
+    border-radius: 40px;
+}
+
+.facts {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin-inline: auto;
+}
+.facts .fact-ar {
+    direction: rtl;
+}
+.facts .get-fact {
+    width: 100px;
+    height: 30px;
+    color: blue;
+    margin-inline: auto;
+    font-size: 1rem;
+    font-weight: 700;
+}
